@@ -63,7 +63,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding-left: 3.12%;
-    padding-right: 6.45px;
+    padding-right: 6.45%;
     position: absolute;
     top: 0;
     left: 0;
@@ -117,11 +117,14 @@ img {
 .ex{
     margin-top: 20.2px;
     font-size: 23px;
+    line-height: 26px;
 }
 /*　見出し終わり　*/
 
 /*  ABOUT US */
 .about{
+    max-width: 1000px;
+    margin:0 auto;
     margin-top: 93.4px;
     display: flex;
     justify-content: center;
@@ -129,18 +132,17 @@ img {
 
 .about_pic{
     width: 500px;
-    height: 560px;
     object-fit: cover;
     border-radius: 0 0 60px 0;
 }
 
 .about_right{
     margin-left: 79.3px;
+    width: 41%;
 }
 
 .about h3{
     width: 272.3px;
-    height: 77.3px;
     margin-top: 47.2px;
 }
 
@@ -152,13 +154,17 @@ img {
 
 .about_text{
     font-size: 16px;
-    width: 410.8px;
     margin-top: 23.3px;
     line-height: 26px;
 }
 /* ABOUT US　終わり */
 
 /* MENU */
+.menu{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
 .menu h3{
     margin-left: auto;
     margin-right: auto;
@@ -175,13 +181,18 @@ img {
 
 .menu_3 img{
     width: 300px;
-    height: 200px;
     border-radius: 0 40px 0 0;
 }
 
 .menu_f,
 .menu_s{
     margin-left: 49px;
+}
+
+.menu_d,
+.menu_f,
+.menu_s{
+    width: 30%;
 }
 
 .menu_3 h4{
@@ -194,7 +205,6 @@ img {
 }
 
 .menu_3 p{
-    width: 300px;
     font-size: 17px;
     line-height: 25px;
     margin-top: 25px;
@@ -205,7 +215,6 @@ img {
 .gallery h3{
     margin-top: 89.1px;
     width: 300px;
-    height: 66px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -216,7 +225,6 @@ img {
 }
 
 .gallery_img img{
-    height: 300px;
     width: 384px;
     object-fit: cover;
 }
@@ -226,23 +234,21 @@ img {
 .event h3{
     margin-top: 55px;
     width: 173.8px;
-    height: 78.3px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .event_contents{
-    display: flex;
+    max-width: 1000px;
+    margin:0 auto;
     margin-top: 42px;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 663px;
     border: 3.6px solid #000000;
     background-color: #fff;
     padding:36px 164px 42px 158px;
 }
 
-.event_contents p{
+.event_contents li{
     font-size: 23px;
     line-height: 45px;
 }
@@ -257,7 +263,6 @@ img {
 .access h3{
     margin-top: 70px;
     width: 213.8px;
-    height: 78.3px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -274,20 +279,21 @@ img {
 }
 
 .footer_txt{
+    max-width: 1000px;
+    margin:0 auto;
     display: flex;
     padding-top: 80px;
-    margin-left: 22%;
 }
 
 .footer_txt h3{
     width: 226.7px;
-    height: 50.2px;
 }
 
 .footer_adress p{
-    margin-left: 58px;
     font-size: 20px;
     line-height: 39px;
+    margin-left: 6%;
+    width: 350px;
 }
 
 .final{
@@ -300,7 +306,6 @@ img {
 #fixed{
     position: fixed;
     width: 125px;
-    height: 125px;
-    right: 15%;
-    bottom: 15%
+    right: 20px;
+    bottom: 20px
 }
